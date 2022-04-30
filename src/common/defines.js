@@ -4,12 +4,24 @@ export const SHOP = {
       name: "clothing",
       sub: [
         { name: "accessories", iconClass: "icon-accessories" },
+        { name: "t-shirts", iconClass: "icon-shirt" },
         { name: "pants", iconClass: "icon-pant" },
         { name: "shorts", iconClass: "icon-short" },
         { name: "jacket", iconClass: "icon-jacket" },
         { name: "dress", iconClass: "icon-dress" },
         { name: "suits", iconClass: "icon-suit" },
-        { name: "shirt", iconClass: "icon-shirt" },
+      ],
+    },
+    {
+      name: "books",
+      sub: [
+        { name: "children's", iconClass: "icon-jacket" },
+        { name: "fantasy", iconClass: ".icon-fantasy" },
+        { name: "health", iconClass: "icon-short" },
+        { name: "memoir", iconClass: "icon-pant" },
+        { name: "spiritual", iconClass: "icon-suit" },
+        { name: "travel", iconClass: "icon-accessories" },
+        { name: "young adult", iconClass: "icon-dress" },
       ],
     },
     {

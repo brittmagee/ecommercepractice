@@ -71,8 +71,8 @@
   {
     "id": "3",
     "category": "clothing",
-    "subCategory": "shirt",
-    "name": "Ivory Check Longline Tunic Shirt",
+    "subCategory": "t-shirts",
+    "name": "PRIDELANDS Official Tee",
     "rate": 5,
     "price": 69,
     "quantity": 12,
@@ -90,12 +90,12 @@
     ],
     "variation": [
       {
-        "color": "red",
-        "colorCode": "#8B0000"
+        "color": "black",
+        "colorCode": "#000000"
       },
       {
-        "color": "blue",
-        "colorCode": "#4169E1"
+        "color": "sand",
+        "colorCode": "#c2b280"
       }
     ],
     "thumbImage": [
@@ -105,8 +105,8 @@
     "images": [
       "/assets/images/products/clothes/3.png",
       "/assets/images/products/clothes/4.png",
-      "/assets/images/products/clothes/5.png",
-      "/assets/images/products/clothes/6.png"
+      "/assets/images/products/clothes/5.png"
+  
     ],
     "description": "",
     "slug": "ivory-check-longline-tunic-shirt-3"
@@ -248,12 +248,37 @@
   {
     "id": "10",
     "category": "clothing",
-    "subCategory": "shirt",
-    "name": "Levi'S Western Denim Shirt",
+    "subCategory": "t-shirts",
+    "name": "HOOP TROOP Tee",
     "rate": 5,
     "price": 37,
     "quantity": 25,
     "sex": "men",
+    "size": [
+      {
+        "name": "XXL"
+      },
+      {
+        "name": "XL"
+      },
+      {
+        "name": "L"
+      }
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "colorCode": "#ffffff"
+      },
+      {
+        "color": "purple",
+        "colorCode": "#800080"
+      },
+      {
+        "color": "mint",
+        "colorCode": "#3eb489"
+      }
+    ],
     "thumbImage": [
       "/assets/images/products/clothes/12.png",
       "/assets/images/products/clothes/13.png"
@@ -261,8 +286,7 @@
     "images": [
       "/assets/images/products/clothes/12.png",
       "/assets/images/products/clothes/13.png",
-      "/assets/images/products/clothes/14.png",
-      "/assets/images/products/clothes/15.png"
+      "/assets/images/products/clothes/14.png"
     ],
     "description": "",
     "slug": "levis-western-denim-shirt-10"
@@ -382,21 +406,18 @@
   {
     "id": "16",
     "category": "clothing",
-    "subCategory": "shirt",
-    "name": "Lapel Zips Plain Long Sleeve Jackets",
+    "subCategory": "t-shirts",
+    "name": "Crystal Kida T-Shirt",
     "rate": 5,
     "price": 36,
     "quantity": 6,
     "sex": "men",
     "thumbImage": [
       "/assets/images/products/clothes/18.png",
-      "/assets/images/products/clothes/19.png"
+      "/assets/images/products/clothes/18.png"
     ],
     "images": [
-      "/assets/images/products/clothes/18.png",
-      "/assets/images/products/clothes/19.png",
-      "/assets/images/products/clothes/20.png",
-      "/assets/images/products/clothes/1.png"
+      "/assets/images/products/clothes/18.png"
     ],
     "description": "",
     "slug": "lapel-zips-plain-long-sleeve-jackets-16"

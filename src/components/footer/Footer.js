@@ -24,10 +24,11 @@ function Footer({ containerType }) {
                     />
                   </a>
                 </Link>
-                <p>7176 Blue Spring Lane Santa Monica, CA 90403</p>
+                <h3>Atlanta, GA, US (HQ)</h3>
+                <p>Centennial Tower, 101 <br/>Marietta St NW #2500</p>
                 <ul>
-                  <li>hi.avitex@gmail.com</li>
-                  <li>+01 123 456 888</li>
+                  <li>eCommercePractice@cypress.io</li>
+                  <li>678- 123-4567</li>
                 </ul>
               </div>
             </Col>
@@ -82,7 +83,7 @@ function Footer({ containerType }) {
       </div>
       <div className="footer-bottom">
         <Container type={containerType}>
-          <p>Copyright © 2020 Avitex Inc. All rights reserved</p>
+          <p>Copyright © 2022 Britt Glynn Testing Cypress.io All rights reserved</p>
         </Container>
       </div>
     </div>

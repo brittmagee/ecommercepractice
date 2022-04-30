@@ -20,20 +20,7 @@ export default function ProductDetailTabOne() {
               </p>
               <h5 className="tab-title">Products Infomation</h5>
               <p className="tab-des">
-                A Pocket PC is a handheld computer, which features many of the
-                same capabilities as a modern PC. These handy little devices
-                allow individuals to retrieve and store e-mail messages, create
-                a contact file, coordinate appointments, surf the internet,
-                exchange text messages and more. Every product that is labeled
-                as a Pocket PC must be accompanied with specific software to
-                operate the unit and must feature a touchscreen and touchpad. As
-                is the case with any new technology product, the cost of a
-                Pocket PC was substantial during it’s early release. For
-                approximately $700.00, consumers could purchase one of
-                top-of-the-line Pocket PCs in 2003. These days, customers are
-                finding that prices have become much more reasonable now that
-                the newness is wearing off. For approximately $350.00, a new
-                Pocket PC can now be purchased.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illo possimus quae tenetur. Porro aliquam quaerat dolorum pariatur molestias commodi ipsa
               </p>
               <h5 className="tab-title">Material used</h5>
               <p className="tab-des">

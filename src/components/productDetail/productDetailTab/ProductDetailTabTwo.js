@@ -16,9 +16,7 @@ export default function ProductDetailTabTwo() {
             </p>
             <h5 className="tab-title">Products Infomation</h5>
             <p className="tab-des">
-              A Pocket PC is a handheld computer, which features many of the
-              same capabilities as a modern PC. These handy little devices allow
-              individuals to retrieve and store e-mail messages
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illo possimus quae tenetur. Porro aliquam quaerat dolorum pariatur molestias commodi ipsa
             </p>
             <h5 className="tab-title">Material used</h5>
             <p className="tab-des">

@@ -16,7 +16,7 @@ export default function Home() {
     router.query.q
   );
   return (
-    <LayoutOne title="Homepage 1">
+    <LayoutOne title="Stora">
       <Banners />
       <ShopLayout
         fiveColumn

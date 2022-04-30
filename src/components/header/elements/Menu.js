@@ -39,7 +39,7 @@ function Menu({ containerType }) {
               <Link href={process.env.PUBLIC_URL + "/"}>
                 <a>
                   <img
-                    src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
+                    src={process.env.PUBLIC_URL + "/assets/images/logo-dark.png"}
                     alt="Logo"
                   />
                 </a>
