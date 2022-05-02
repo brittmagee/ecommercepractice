@@ -2,11 +2,11 @@
   {
     "id": "1",
     "category": "clothing",
-    "subCategory": "coat",
-    "name": "Jack & Jones Men's T-Shirt",
+    "subCategory": "hoodie",
+    "name": "Simba & Nala Crop Hoodie",
     "rate": 4,
     "reviewCount": 10,
-    "price": 59.99,
+    "price": 45,
     "discount": 20,
     "new": true,
     "quantity": 8,
@@ -20,6 +20,12 @@
       },
       {
         "name": "L"
+      },
+      {
+        "name": "M"
+      },
+      {
+        "name": "XS"
       }
     ],
     "thumbImage": [
@@ -33,40 +39,27 @@
       "/assets/images/products/clothes/4.png"
     ],
     "description": "",
-    "slug": "jack-jones-mens-t-shirt-1"
+    "slug": "simba-and-nala-crop-hoodie"
   },
   {
     "id": "2",
     "category": "clothing",
-    "subCategory": "coat",
-    "name": "Fold Over Collar Plain Blazers",
+    "subCategory": "prints",
+    "name": "Powerline 2022 Art Print",
     "rate": 5,
-    "price": 84,
+    "price": 25,
     "quantity": 6,
     "isNew": true,
     "sex": "men",
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#8B0000"
-      },
-      {
-        "color": "blue",
-        "colorCode": "#4169E1"
-      }
-    ],
     "thumbImage": [
-      "/assets/images/products/clothes/2.png",
-      "/assets/images/products/clothes/3.png"
+      "/assets/images/products/clothes/11.png",
+      "/assets/images/products/clothes/11.png"
     ],
     "images": [
-      "/assets/images/products/clothes/2.png",
-      "/assets/images/products/clothes/3.png",
-      "/assets/images/products/clothes/4.png",
-      "/assets/images/products/clothes/5.png"
+      "/assets/images/products/clothes/11.png"
     ],
     "description": "",
-    "slug": "fold-over-collar-plain-blazers-2"
+    "slug": "powerline-art-print"
   },
   {
     "id": "3",
@@ -74,7 +67,7 @@
     "subCategory": "t-shirts",
     "name": "PRIDELANDS Official Tee",
     "rate": 5,
-    "price": 69,
+    "price": 35,
     "quantity": 12,
     "sex": "men",
     "size": [
@@ -109,141 +102,177 @@
   
     ],
     "description": "",
-    "slug": "ivory-check-longline-tunic-shirt-3"
+    "slug": "pridelands-tee"
   },
   {
     "id": "4",
     "category": "clothing",
-    "subCategory": "pants",
-    "name": "Vero Moda Coco Wide Pant",
+    "subCategory": "tanks",
+    "name": "Hot Boy Summer Tank Top",
     "rate": 3,
-    "price": 36,
+    "price": 25,
     "quantity": 4,
     "sex": "men",
     "thumbImage": [
-      "/assets/images/products/clothes/5.png",
-      "/assets/images/products/clothes/6.png"
+      "/assets/images/products/clothes/6.png",
+      "/assets/images/products/clothes/7.png"
+    ],
+    "size": [
+      {
+        "name": "XXL"
+      },
+      {
+        "name": "XL"
+      },
+      {
+        "name": "L"
+      }
+    ],
+    "variation": [
+      {
+        "color": "coral",
+        "colorCode": "#ff7f50"
+      },
+      {
+        "color": "pacific blue",
+        "colorCode": "#1ca9c9"
+      }
     ],
     "images": [
-      "/assets/images/products/clothes/5.png",
       "/assets/images/products/clothes/6.png",
       "/assets/images/products/clothes/7.png",
       "/assets/images/products/clothes/8.png"
     ],
     "description": "",
-    "slug": "vero-moda-coco-wide-pant-4"
+    "slug": "hot-boy-summer-tank"
   },
   {
     "id": "5",
     "category": "clothing",
-    "subCategory": "suits",
-    "name": "Boxy Cardigan",
+    "subCategory": "prints",
+    "name": "FELINE FELONS Art Print",
     "rate": 4,
-    "price": 72,
-    "discount": 13,
+    "price": 25,
+    "discount": 5,
     "quantity": 9,
     "sex": "women",
     "thumbImage": [
-      "/assets/images/products/clothes/7.png",
-      "/assets/images/products/clothes/8.png"
+      "/assets/images/products/clothes/22.png",
+      "/assets/images/products/clothes/22.png"
     ],
     "images": [
-      "/assets/images/products/clothes/7.png",
-      "/assets/images/products/clothes/8.png",
-      "/assets/images/products/clothes/9.png",
-      "/assets/images/products/clothes/10.png"
+      "/assets/images/products/clothes/22.png"
     ],
     "description": "",
-    "slug": "boxy-cardigan-5"
+    "slug": "feline-felon-prints"
   },
   {
     "id": "6",
     "category": "clothing",
-    "subCategory": "dress",
-    "name": "New now committed brothers & sisters",
+    "subCategory": "long sleeves",
+    "name": "Black Masterminds Project Vol 1 and Vol. 2 Crewneck",
     "rate": 5,
-    "price": 69,
+    "price": 50,
     "quantity": 9,
     "sex": "women",
+    "size": [
+      {
+        "name": "XXL"
+      },
+      {
+        "name": "XL"
+      },
+      {
+        "name": "L"
+      },
+      {
+        "name": "M"
+      },
+      {
+        "name": "XS"
+      }
+    ],
     "thumbImage": [
-      "/assets/images/products/clothes/8.png",
+      "/assets/images/products/clothes/9.png",
       "/assets/images/products/clothes/9.png"
     ],
     "images": [
-      "/assets/images/products/clothes/8.png",
-      "/assets/images/products/clothes/9.png",
-      "/assets/images/products/clothes/10.png",
-      "/assets/images/products/clothes/11.png"
+      "/assets/images/products/clothes/9.png"
     ],
     "description": "",
-    "slug": "new-now-committed-brothers-sisters-6"
+    "slug": "black-masterminds-crewneck"
   },
   {
     "id": "7",
     "category": "clothing",
-    "subCategory": "shorts",
-    "name": "Scotch Soda Skim Jeans",
+    "subCategory": "long sleeves",
+    "name": "PRIDELANDS LONG SLEEVE TEE",
     "rate": 5,
-    "price": 29,
+    "price": 37,
     "isNew": true,
     "quantity": 0,
     "sex": "women",
+    "size": [
+      {
+        "name": "XL"
+      },
+      {
+        "name": "L"
+      },
+      {
+        "name": "S"
+      },
+      {
+        "name": "XS"
+      }
+    ],
     "thumbImage": [
-      "/assets/images/products/clothes/9.png",
-      "/assets/images/products/clothes/10.png"
+      "/assets/images/products/clothes/20.png",
+      "/assets/images/products/clothes/20.png"
     ],
     "images": [
-      "/assets/images/products/clothes/9.png",
-      "/assets/images/products/clothes/10.png",
-      "/assets/images/products/clothes/11.png",
-      "/assets/images/products/clothes/12.png"
+      "/assets/images/products/clothes/20.png"
     ],
     "description": "",
-    "slug": "scotch-soda-skim-jeans-7"
+    "slug": "pridelands-long-sleeve-tee"
   },
   {
     "id": "8",
     "category": "clothing",
-    "subCategory": "dress",
-    "name": "Champion dress",
+    "subCategory": "accessories",
+    "name": "SCAR DAD HAT",
     "rate": 4,
-    "price": 35,
+    "price": 27,
     "quantity": 16,
     "sex": "men",
     "thumbImage": [
-      "/assets/images/products/clothes/10.png",
-      "/assets/images/products/clothes/11.png"
+      "/assets/images/products/clothes/2.png",
+      "/assets/images/products/clothes/2.png"
     ],
     "images": [
-      "/assets/images/products/clothes/10.png",
-      "/assets/images/products/clothes/11.png",
-      "/assets/images/products/clothes/12.png",
-      "/assets/images/products/clothes/13.png"
+      "/assets/images/products/clothes/2.png"
     ],
     "description": "",
-    "slug": "champion-dress-8"
+    "slug": "scar-dad-hat"
   },
   {
     "id": "9",
     "category": "clothing",
     "subCategory": "suits",
-    "name": "Solid Notch Lapel Single Button Long Sleeve Blazer",
+    "name": "ROYAL LION COUPLES Art Print",
     "rate": 5,
-    "price": 75,
+    "price": 25,
     "quantity": 6,
     "sex": "men",
     "thumbImage": [
-      "/assets/images/products/clothes/11.png",
-      "/assets/images/products/clothes/12.png"
+      "/assets/images/products/clothes/23.png",
+      "/assets/images/products/clothes/23.png"
     ],
     "images": [
-      "/assets/images/products/clothes/11.png",
-      "/assets/images/products/clothes/12.png",
-      "/assets/images/products/clothes/13.png",
-      "/assets/images/products/clothes/14.png"
+      "/assets/images/products/clothes/23.png"
     ],
     "description": "",
-    "slug": "solid-notch-lapel-single-button-long-sleeve-blazer-9"
+    "slug": "royal-lion-couples-print"
   },
   {
     "id": "10",
@@ -251,7 +280,7 @@
     "subCategory": "t-shirts",
     "name": "HOOP TROOP Tee",
     "rate": 5,
-    "price": 37,
+    "price": 30,
     "quantity": 25,
     "sex": "men",
     "size": [
@@ -289,119 +318,177 @@
       "/assets/images/products/clothes/14.png"
     ],
     "description": "",
-    "slug": "levis-western-denim-shirt-10"
+    "slug": "hoop-troop-tee"
   },
   {
     "id": "11",
     "category": "clothing",
-    "subCategory": "jacket",
-    "name": "Loap Infery Kids Winter Jacket",
+    "subCategory": "hoodie",
+    "name": "PRIDELANDS OFFICIAL HOODIE",
     "rate": 5,
-    "price": 37,
+    "price": 50,
     "quantity": 25,
     "sex": "men",
+    "size": [
+      {
+        "name": "XXXL"
+      },
+      {
+        "name": "XXL"
+      },
+      {
+        "name": "XL"
+      },
+      {
+        "name": "L"
+      },
+      {
+        "name": "M"
+      },
+      {
+        "name": "S"
+      }
+    ],
     "thumbImage": [
-      "/assets/images/products/clothes/13.png",
-      "/assets/images/products/clothes/14.png"
+      "/assets/images/products/clothes/17.png",
+      "/assets/images/products/clothes/17.png"
     ],
     "images": [
-      "/assets/images/products/clothes/13.png",
-      "/assets/images/products/clothes/14.png",
-      "/assets/images/products/clothes/15.png",
-      "/assets/images/products/clothes/16.png"
+      "/assets/images/products/clothes/17.png"
     ],
     "description": "",
-    "slug": "loap-infery-kids-winter-jacket-11"
+    "slug": "pridelands-hoodie"
   },
   {
     "id": "12",
     "category": "clothing",
-    "subCategory": "pants",
-    "name": "Richtan Hero",
+    "subCategory": "tanks",
+    "name": "AIR MAX TANK TOP",
     "rate": 4,
-    "price": 22,
+    "price": 30,
     "quantity": 30,
     "isNew": true,
     "sex": "men",
-    "thumbImage": [
-      "/assets/images/products/clothes/14.png",
-      "/assets/images/products/clothes/15.png"
+    "size": [
+      {
+        "name": "XXL"
+      },
+      {
+        "name": "XL"
+      },
+      {
+        "name": "L"
+      }
     ],
-    "images": [
-      "/assets/images/products/clothes/14.png",
-      "/assets/images/products/clothes/15.png",
-      "/assets/images/products/clothes/16.png",
-      "/assets/images/products/clothes/17.png"
+    "variation": [
+      {
+        "color": "white",
+        "colorCode": "#ffffff"
+      },
+      {
+        "color": "gray",
+        "colorCode": "#808080"
+      }
     ],
-    "description": "",
-    "slug": "richtan-hero-12"
-  },
-  {
-    "id": "13",
-    "category": "clothing",
-    "subCategory": "suits",
-    "name": "David Jones",
-    "rate": 5,
-    "price": 78,
-    "quantity": 3,
-    "sex": "men",
     "thumbImage": [
       "/assets/images/products/clothes/15.png",
       "/assets/images/products/clothes/16.png"
     ],
     "images": [
       "/assets/images/products/clothes/15.png",
-      "/assets/images/products/clothes/16.png",
-      "/assets/images/products/clothes/17.png",
-      "/assets/images/products/clothes/18.png"
+      "/assets/images/products/clothes/16.png"
     ],
     "description": "",
-    "slug": "david-jones-13"
+    "slug": "air-max-tank"
+  },
+  {
+    "id": "13",
+    "category": "clothing",
+    "subCategory": "t-shirts",
+    "name": "Pridelands Brothers Tee",
+    "rate": 5,
+    "price": 35,
+    "quantity": 3,
+    "sex": "men",
+    "size": [
+      {
+        "name": "L"
+      },
+      {
+        "name": "M"
+      },
+      {
+        "name": "XS"
+      }
+    ],
+    "thumbImage": [
+      "/assets/images/products/clothes/10.png",
+      "/assets/images/products/clothes/10.png"
+    ],
+    "images": [
+      "/assets/images/products/clothes/10.png"
+    ],
+    "description": "",
+    "slug": "prideland-brothers-tee"
   },
   {
     "id": "14",
     "category": "clothing",
-    "subCategory": "dress",
-    "name": "Basic Hollow Out Flared Midi Skirt",
+    "subCategory": "prints",
+    "name": "Black Masterminds Project Vol. 3 Poster",
     "rate": 3,
-    "price": 22,
+    "price": 30,
     "quantity": 18,
     "sex": "men",
     "thumbImage": [
-      "/assets/images/products/clothes/16.png",
-      "/assets/images/products/clothes/17.png"
+      "/assets/images/products/clothes/21.png",
+      "/assets/images/products/clothes/21.png"
     ],
     "images": [
-      "/assets/images/products/clothes/16.png",
-      "/assets/images/products/clothes/17.png",
-      "/assets/images/products/clothes/18.png",
-      "/assets/images/products/clothes/19.png"
+      "/assets/images/products/clothes/21.png"
     ],
     "description": "",
-    "slug": "basic-hollow-out-flared-midi-skirt-14"
+    "slug": "black-masterminds-project-poster"
   },
   {
     "id": "15",
     "category": "clothing",
-    "subCategory": "shorts",
-    "name": "Plain Midi Flared Skirts",
+    "subCategory": "long sleeves",
+    "name": "Oliver & Company Long Sleeve Tee",
     "rate": 3,
-    "price": 22,
+    "price": 37,
     "quantity": 18,
     "discount": 4,
     "sex": "men",
+    "size": [
+      {
+        "name": "XXXL"
+      },
+      {
+        "name": "XXL"
+      },
+      {
+        "name": "XL"
+      },
+      {
+        "name": "L"
+      },
+      {
+        "name": "M"
+      },
+      {
+        "name": "S"
+      }
+    ],
     "thumbImage": [
-      "/assets/images/products/clothes/17.png",
-      "/assets/images/products/clothes/18.png"
+      "/assets/images/products/clothes/19.png",
+      "/assets/images/products/clothes/19.png"
     ],
     "images": [
-      "/assets/images/products/clothes/17.png",
-      "/assets/images/products/clothes/18.png",
-      "/assets/images/products/clothes/19.png",
-      "/assets/images/products/clothes/20.png"
+      "/assets/images/products/clothes/19.png"
     ],
     "description": "",
-    "slug": "plain-midi-flared-skirts-15"
+    "slug": "oliver-and-company-tee"
   },
   {
     "id": "16",
@@ -409,7 +496,7 @@
     "subCategory": "t-shirts",
     "name": "Crystal Kida T-Shirt",
     "rate": 5,
-    "price": 36,
+    "price": 30,
     "quantity": 6,
     "sex": "men",
     "thumbImage": [
@@ -420,49 +507,43 @@
       "/assets/images/products/clothes/18.png"
     ],
     "description": "",
-    "slug": "lapel-zips-plain-long-sleeve-jackets-16"
+    "slug": "crystal-kida"
   },
   {
     "id": "17",
-    "category": "fruits",
-    "subCategory": "vegatables",
-    "name": "Onion",
-    "rate": 5,
-    "price": 12,
+    "category": "clothing",
+    "subCategory": "stickers",
+    "name": "Masterminds Slap Pack",
+    "rate": 4,
+    "price": 10,
     "quantity": 6,
     "thumbImage": [
-      "/assets/images/products/fruits/1.png",
-      "/assets/images/products/fruits/2.png"
+      "/assets/images/products/clothes/24.png",
+      "/assets/images/products/clothes/24.png"
     ],
     "images": [
-      "/assets/images/products/fruits/1.png",
-      "/assets/images/products/fruits/2.png",
-      "/assets/images/products/fruits/3.png",
-      "/assets/images/products/fruits/4.png"
+      "/assets/images/products/clothes/24.png"
     ],
     "description": "",
-    "slug": "onion-17"
+    "slug": "mastermind-slap-stickers"
   },
   {
     "id": "18",
-    "category": "fruits",
-    "subCategory": "vegatables",
-    "name": "Samba onion",
+    "category": "clothing",
+    "subCategory": "stickers",
+    "name": "Lisa Plus Ultra Stickers (3 Pack)",
     "rate": 5,
-    "price": 12,
+    "price": 6,
     "quantity": 6,
     "thumbImage": [
-      "/assets/images/products/fruits/2.png",
-      "/assets/images/products/fruits/3.png"
+      "/assets/images/products/clothes/25.png",
+      "/assets/images/products/clothes/25.png"
     ],
     "images": [
-      "/assets/images/products/fruits/2.png",
-      "/assets/images/products/fruits/3.png",
-      "/assets/images/products/fruits/4.png",
-      "/assets/images/products/fruits/5.png"
+      "/assets/images/products/clothes/25.png"
     ],
     "description": "",
-    "slug": "samba-onion-18"
+    "slug": "lisa-plus-ultra-stickers"
   },
   {
     "id": "19",

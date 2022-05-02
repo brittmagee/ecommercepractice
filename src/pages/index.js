@@ -16,7 +16,7 @@ export default function Home() {
     router.query.q
   );
   return (
-    <LayoutOne title="Stora">
+    <LayoutOne title="Masterminds|Cypress.io practice">
       <Banners />
       <ShopLayout
         fiveColumn

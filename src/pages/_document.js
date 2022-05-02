@@ -11,13 +11,15 @@ class MyDocument extends Document {
         <Head>
           <meta
             name="title"
-            content="Stora - React Ecommerce Template with NextJs, AntDesign, ReactHooks"
+            // content="Stora - React Ecommerce Template with NextJs, AntDesign, ReactHooks"
+            content="Masterminds Connect - Cypress.io Practice"
           />
           <meta
             name="description"
-            content="Stora - React Ecommerce Template with NextJs, AntDesign, ReactHooks"
+            // content="Stora - React Ecommerce Template with NextJs, AntDesign, ReactHooks"
+            content="Masterminds Connect - Cypress.io Practice"
           />
-          <link rel="icon" href="/fav.png" />
+          <link rel="icon" href="/MC-logo.png" />
           <link
             href="https://kit-pro.fontawesome.com/releases/v5.13.0/css/pro.min.css"
             rel="stylesheet"

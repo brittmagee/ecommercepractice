@@ -18,12 +18,14 @@ function Footer({ containerType }) {
                   <a>
                     <img
                       src={
-                        process.env.PUBLIC_URL + "/assets/images/logo-dark.png"
+                        // process.env.PUBLIC_URL + "/assets/images/logo-dark.png"
+                        process.env.PUBLIC_URL + "/assets/images/MC-logo.png"
                       }
                       alt="Logo"
                     />
                   </a>
                 </Link>
+                <h2>Masterminds | Cypress.io practice</h2>
                 <h3>Atlanta, GA, US (HQ)</h3>
                 <p>Centennial Tower, 101 <br/>Marietta St NW #2500</p>
                 <ul>
