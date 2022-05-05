@@ -1,0 +1,8 @@
+{
+  "projectId": "gajpc2",
+  "baseUrl":"http://localhost:3000",
+  "component": {
+    "componentFolder": "src",
+    "testFiles": "**/*spec.{js,jsx,ts,tsx}"
+  }
+}

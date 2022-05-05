@@ -30,13 +30,10 @@
     ],
     "thumbImage": [
       "/assets/images/products/clothes/1.png",
-      "/assets/images/products/clothes/2.png"
+      "/assets/images/products/clothes/1.png"
     ],
     "images": [
-      "/assets/images/products/clothes/1.png",
-      "/assets/images/products/clothes/2.png",
-      "/assets/images/products/clothes/3.png",
-      "/assets/images/products/clothes/4.png"
+      "/assets/images/products/clothes/1.png"
     ],
     "description": "",
     "slug": "simba-and-nala-crop-hoodie"

@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Practice eCommerce site with React.js & Cypress.io testing
+### Actual store products can be found at [Masterminds Connect](https://mastermindsconnect.com/)
 
 First, run the development server:
 
