@@ -1,5 +1,6 @@
 {
   "projectId": "gajpc2",
+  "experimentalStudio": true,
   "baseUrl":"http://localhost:3000",
   "component": {
     "componentFolder": "src",
