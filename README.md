@@ -1,7 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Brittani's CSM Technical Interview | Cypress.io
+Hi Tia, Jada, Abram and Jonathan! 
 
-## Practice eCommerce site with React.js & Cypress.io testing
-### Actual store products can be found at [Masterminds Connect](https://mastermindsconnect.com/)
+Please reference the information below to get everything up and running. I wanted to use a website template to create my tests and CI. 
+
+Hope you enjoy! ~ Brittani
+
+### Cypress.io practice testing site with React.js eCommerce template
+#### Website template can be downloaded at [Envato Elements | Stora - React Ecommerce NextJs, ReactHooks...](https://elements.envato.com/stora-react-ecommerce-nextjs-reacthooks-WUYFYPQ)
+#### If you would like to check out the actual store from the artist, Marco, you may visit his website [Masterminds Connect](https://mastermindsconnect.com/)
 
 First, run the development server:
 
@@ -11,21 +17,4 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open [http://localhost:3000/](http://localhost:3000/) with your browser to see the result.
