@@ -1,7 +1,7 @@
 ## Brittani's CSM Technical Interview | Cypress.io
 Hi Tia, Jada, Abram and Jonathan! 
 
-Please reference the information below to get everything up and running. I wanted to use a website template to create my tests and CI. 
+Please reference the information below to get everything up and running. I wanted to use an ecommerce website template to create my tests and CI. 
 
 Hope you enjoy! ~ Brittani
 
