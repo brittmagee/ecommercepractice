@@ -77,17 +77,24 @@ describe('Mastermind Tests', function(){
         cy.get(':nth-child(1) > .cart-sidebar-item__content > .quantity-selector > :nth-child(1) > span').click();
     });
 
-    // it('Add two different items to cart', () => {
-    //     //Add two different items to cart and ensure price increments properly
-    //     cy.get(':nth-child(5) > .product > .product-image > .product-qv > span').click({force: true});
-    //     cy.get('.product-detail-content-one-atc > span').click();
-    //     cy.get(':nth-child(13) > .product > .product-image > .product-qv > span').click({force: true});
-    //     cy.get(':nth-child(2) > .ant-radio-button').click();
-    //     cy.get(':nth-child(2) > .ant-radio-button > .ant-radio-button-input').check({force: true});
-    //     cy.get(':nth-child(18) > .ant-modal-root > .ant-modal-wrap > .ant-modal > .ant-modal-content > .ant-modal-body > .shop-qv > .ant-row > .ant-col-md-14 > .product-detail-content-one > .product-detail-content-one-actions > .product-detail-content-one-atc > span').click({force: true});
-    //     cy.get('.menu-functions > :nth-child(3) > img').click();
-    //     cy.get('.ant-drawer-close > .anticon > svg').click();
-    // });
+    it.only('Add two different items to cart',{
+        retries: {
+          runMode: 2,
+          openMode: 1,
+        },
+      }, () => {
+        //Add two different items to cart and ensure price increments properly
+        cy.get(':nth-child(5) > .product > .product-image > .product-qv > span').click({force: true});
+        cy.get('.product-detail-content-one-atc > span').click();
+        cy.get(':nth-child(13) > .product > .product-image > .product-qv > span').click({force: true});
+        cy.get(':nth-child(2) > .ant-radio-button').click();
+        cy.get(':nth-child(2) > .ant-radio-button > .ant-radio-button-input').check({force: true});
+        cy.get(':nth-child(18) > .ant-modal-root > .ant-modal-wrap > .ant-modal > .ant-modal-content > .ant-modal-body > .shop-qv > .ant-row > .ant-col-md-14 > .product-detail-content-one > .product-detail-content-one-actions > .product-detail-content-one-atc > span').click({force: true});
+        // cy.get('button').contains('Add to cart').click();
+        // cy.get('[data-cy="submit"]').click();
+        cy.get('.menu-functions > :nth-child(3) > img').click();
+        cy.get('.ant-drawer-close > .anticon > svg').click();
+    });
 
     it('Add to cart & navigate to checkout', () => {
         //add an item to cart, select checkout, and be directed to checkout page

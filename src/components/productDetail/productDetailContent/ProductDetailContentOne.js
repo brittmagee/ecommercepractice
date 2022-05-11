@@ -155,11 +155,12 @@ function ProductDetailContentOne({
         <Button
           onClick={() => onAddProductToCart(data)}
           disabled={avaiableQuantity === 0}
-          className={`product-detail-content-one-atc ${classNames({
+          className={`addTwoItems product-detail-content-one-atc ${classNames({
             disabled: avaiableQuantity === 0,
           })}`}
           type="link"
           danger
+          data-cy="submit"
         >
           Add to cart
         </Button>
