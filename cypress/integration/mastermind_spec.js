@@ -77,12 +77,7 @@ describe('Mastermind Tests', function(){
         cy.get(':nth-child(1) > .cart-sidebar-item__content > .quantity-selector > :nth-child(1) > span').click();
     });
 
-    it.only('Add two different items to cart',{
-        retries: {
-          runMode: 2,
-          openMode: 1,
-        },
-      }, () => {
+    it('Add two different items to cart', () => {
         //Add two different items to cart and ensure price increments properly
         cy.get(':nth-child(5) > .product > .product-image > .product-qv > span').click({force: true});
         cy.get('.product-detail-content-one-atc > span').click();
