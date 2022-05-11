@@ -114,7 +114,7 @@ describe('Mastermind Tests', function(){
         cy.get('.cart-sidebar-total__buttons > .ant-btn > a').click();
         cy.get('.checkout-functions--shopping > a').click();
     });
-
+ 
     it('Test search bar', () =>  {
         // type hoodie in search bar and return the 2 hoodies items
         cy.get('#rc_select_3').clear();
