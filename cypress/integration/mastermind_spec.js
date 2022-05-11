@@ -77,17 +77,17 @@ describe('Mastermind Tests', function(){
         cy.get(':nth-child(1) > .cart-sidebar-item__content > .quantity-selector > :nth-child(1) > span').click();
     });
 
-    it('Add two different items to cart', () => {
-        //Add two different items to cart and ensure price increments properly
-        cy.get(':nth-child(5) > .product > .product-image > .product-qv > span').click({force: true});
-        cy.get('.product-detail-content-one-atc > span').click();
-        cy.get(':nth-child(13) > .product > .product-image > .product-qv > span').click({force: true});
-        cy.get(':nth-child(2) > .ant-radio-button').click();
-        cy.get(':nth-child(2) > .ant-radio-button > .ant-radio-button-input').check({force: true});
-        cy.get(':nth-child(18) > .ant-modal-root > .ant-modal-wrap > .ant-modal > .ant-modal-content > .ant-modal-body > .shop-qv > .ant-row > .ant-col-md-14 > .product-detail-content-one > .product-detail-content-one-actions > .product-detail-content-one-atc > span').click();
-        cy.get('.menu-functions > :nth-child(3) > img').click({force: true});
-        cy.get('.ant-drawer-close > .anticon > svg').click();
-    });
+    // it('Add two different items to cart', () => {
+    //     //Add two different items to cart and ensure price increments properly
+    //     cy.get(':nth-child(5) > .product > .product-image > .product-qv > span').click({force: true});
+    //     cy.get('.product-detail-content-one-atc > span').click();
+    //     cy.get(':nth-child(13) > .product > .product-image > .product-qv > span').click({force: true});
+    //     cy.get(':nth-child(2) > .ant-radio-button').click();
+    //     cy.get(':nth-child(2) > .ant-radio-button > .ant-radio-button-input').check({force: true});
+    //     cy.get(':nth-child(18) > .ant-modal-root > .ant-modal-wrap > .ant-modal > .ant-modal-content > .ant-modal-body > .shop-qv > .ant-row > .ant-col-md-14 > .product-detail-content-one > .product-detail-content-one-actions > .product-detail-content-one-atc > span').click();
+    //     cy.get('.menu-functions > :nth-child(3) > img').click({force: true});
+    //     cy.get('.ant-drawer-close > .anticon > svg').click();
+    // });
 
     it('Add to cart & navigate to checkout', () => {
         //add an item to cart, select checkout, and be directed to checkout page
@@ -117,5 +117,19 @@ describe('Mastermind Tests', function(){
         cy.get('#rc_select_3').type('hoodie');
         cy.get('.menu-wrapper > .menu-search > .menu-search__form > .menu-search__form-input > .ant-btn > .icon_search').click();
         cy.get(':nth-child(1) > .product > .product-content > .product-name').click();
+    });
+
+    it('Add a print and hat', () =>   {
+        cy.get('.menu-functions > :nth-child(3) > span').click();
+        cy.get('.ant-drawer-close > .anticon > svg').click();
+        cy.get('.ant-drawer-title').contains('Shopping cart (0)')
+        cy.get(':nth-child(2) > .product > .product-image > .product-qv > span').click({force: true});
+        cy.get('[data-cy="submit"] > span').click();
+        cy.get(':nth-child(8) > .product > .product-image > .product-qv').click({force: true});
+        cy.get('[data-cy="submit"] > span').eq(1).click();
+        // cy.get(':nth-child(18) > .ant-modal-root > .ant-modal-wrap > .ant-modal > .ant-modal-content > .ant-modal-body > .shop-qv > .ant-row > .ant-col-md-14 > .product-detail-content-one > .product-detail-content-one-actions > [data-cy="submit"] > span').click({force: true});
+        cy.get('.ant-drawer-title').contains('Shopping cart (2)')
+        cy.get('.menu-functions > :nth-child(3) > span').click();
+        cy.get('.ant-drawer-close > .anticon > svg').click();
     });
 })
